@@ -3,7 +3,7 @@ import ::adobe::mtl::standard;
 import ::adobe::util::*;
 import ::tex::gamma_mode;
 
-export material objMesh 結合済みマテリアル(*)
+export material material_1(*)
  = ::adobe::mtl::standard(
 	baseColor: adobe::util::color_texture( texture_2d("baseColor", ::tex::gamma_srgb) ),
 	baseColor : color(0.803922, 0.803922, 0.803922),

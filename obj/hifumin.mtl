@@ -1,4 +1,4 @@
-newmtl objMesh
+newmtl material_1
 Ka 0.000000 0.000000 0.000000
 Kd 0.803922 0.803922 0.803922
 Ks 0.000000 0.000000 0.000000
@@ -11,5 +11,5 @@ Pm 0.080000
 adobe_density 0.000000
 adobe_translucence 0.000000
 adobe_glow 0.000000
-map_Kd objMesh.psd
+map_Kd hifumin.JPG 
 
