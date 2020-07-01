@@ -12,7 +12,8 @@
                 <a-asset-item id="hifumin-obj" src="./gltf-obj/hifumin.gltf"></a-asset-item>
             </a-assets>
             <a-marker preset="custom" type='pattern' url='./marker/pattern-hifumin.patt'>
-              <a-gltf-model id="model" src="#hifumin-obj" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-gltf-model>
+                <a-entity gltf-model="#hifumin-obj" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0" animation-mixer></a-entity>
+                <!--<a-gltf-model src="#hifumin-obj" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-gltf-model>-->
             </a-marker>
             <a-entity camera></a-entity>
           </a-scene>
