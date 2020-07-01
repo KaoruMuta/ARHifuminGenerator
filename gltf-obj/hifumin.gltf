@@ -54,12 +54,6 @@
             ]
         }
     ],
-    "buffers": [
-        {
-            "byteLength": 5762608,
-            "uri": "result.bin"
-        }
-    ],
     "bufferViews": [
         {
             "buffer": 0,
