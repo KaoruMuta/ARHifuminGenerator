@@ -8,11 +8,11 @@
     </head>
     <body>
         <a-assets>
-            <a-asset-item id="hifumin-obj" src="hifumin.obj"></a-asset-item>
+            <a-asset-item id="hifumin-obj" src="./obj/hifumin.obj"></a-asset-item>
         </a-assets>
         <a-scene embedded arjs="debugUIEnabled:false;">
             <a-marker preset="custom" type='pattern' url='./marker/pattern-hifumin.patt'>
-              <a-box position="0 0.5 0" wireframe="true"></a-box>
+              <a-obj-model id="model" src="#hifumin-obj" position="0 0 0" scale="0.5 0.5 0.5" rotation="0 0 0"></a-obj>
             </a-marker>
             <a-entity camera></a-entity>
           </a-scene>
