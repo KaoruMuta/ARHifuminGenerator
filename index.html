@@ -11,6 +11,7 @@
         <title>Hifumin Generator</title>
     </head>
     <body>
+        <!--link AR.js to VR area of A-Frame-->
         <a-scene embedded arjs="debugUIEnabled:false;" vr-mode-ui="enabled:false">
             <!--prepare asset-->
             <a-assets>
@@ -20,7 +21,7 @@
             <a-marker preset="hiro">
                 <a-entity gltf-model="#hifumin-obj"></a-entity>
             </a-marker>
-            <!--camera build-->
+            <!--camera build for AR-->
             <a-entity camera></a-entity>
         </a-scene>
     </body>
